@@ -1,0 +1,14 @@
+var a = prompt("Переменная a: ");
+console.log("a: " + a);
+var b = prompt("Переменная b: ");
+console.log("b: " + b);
+console.log("Было: " + 'a: ' + a + " b: " + b);
+document.write("a: " + a + " b: " + b +"<br/>");
+var c = a;
+console.log("c присвоили a: " + a);
+a = b;
+console.log("a стало: " + a);
+b = c;
+console.log("b стало: " + b);
+console.log("Стало: " + "a: " + a + " b: " + b);
+document.write("a: " + a + " b: " + b);
