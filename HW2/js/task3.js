@@ -4,11 +4,9 @@ var c = +prompt("Введите число №3: ");
 
     if (a > b && a > c) {
         document.write(a + " больше!<br>");
-    } else
-    if (b > a && b > c) {
+    } else if (b > a && b > c) {
         document.write(b + " больше!<br>");
-    } else
-    if (c > a && c > b) {
+    } else {
         document.write(c + " больше!<br>");
     } 
 
